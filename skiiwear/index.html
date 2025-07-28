@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+        <title>Skiiwear</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Skiiwear</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#products">Shop</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        </header>
+        <section class="hero">
+            <div>
+                <h2>Discover the latest trends</h2>
+                <p>Shop at our store for the best clothes and be in touch with the fashion.Find yopur style today!</p>
+                <button onclick="scrollToProducts()">Shop Now</button>
+            </div>
+            <img src="https://vis.placeholder .com/300x400"
+            alt="Model" />
+ 
+        </section>
+        <section class="products" id="products">
+            <h2>Featured Products</h2>
+            <div class="product-grid" id="product-grid"></div>
+        </section>
+        <section CLASS="cart" id="cart">
+            <h2>Your cart</h2>
+            <ul id="cartItems"></ul>
+            <p>Total: <span id="TotalPrice">$0</span></p>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact us</h2>
+            <form id="contactForm">
+            <input type="text" placeholder="Your Name"
+            required/>
+            <input type="email" placeholder="Your Email"
+            required />
+            <textarea placeholder= "Your Message"
+            required></textarea>/>
+            <button type="submit">send</button>
+        </form>
+        </section>
+
+        <footer>
+            <P>2025 Skiiwear. All rights reserved.</P>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+    </html>
